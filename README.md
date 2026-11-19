@@ -14,7 +14,7 @@ Any other account is checked by piping the program output. Pass the account tota
 py rebalance.py 100000 example_book.csv | py test_rebalance.py
 ```
 
-Assumptions checked by the tests:
+Assumptions:
 
 - Share counts are printed with 6 decimal places.
 - Buy cash rounds up to the cent. Sell cash rounds down to the cent.
